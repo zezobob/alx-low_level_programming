@@ -6,12 +6,9 @@
 */
 int main(void)
 {
-char ch = 'z';
-while (ch >= 'a')
-{
-putchar(ch);
-ch--;
-}
-putchar("\n");
+char c;
+for (c = 'z'; c >= 'a'; c--)
+putchar(c);
+putchar('\n');
 return	(0);
 }
