@@ -6,10 +6,13 @@
 */
 int mai(void)
 {
-	char c;
+	char ch = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+	while (ch <= 'z,')
+	{
+		putchar(ch);
+		ch++;
+	}
 	putchar('\n');
 	return (0);
 }
