@@ -6,17 +6,13 @@
 */
 int main(void)
 {
-char c = 'a';
-int num;
-for (num = 0; num < 16; num++)
+int digit  = 48;
+while (digit  <= 102; num++)
 {
-if (num < 10)
-{
-if (num < 10)
-{
-putchar(num + '0');
-c++;
-}
+putchar(digit);
+if (digit == 57)
+digit += 39;
+digit++;
 }
 putchar('\n');
 return  (0);
