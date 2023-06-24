@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *main - Entry point A prints _putchar using putchar prototype
 *Return: Always 0 (Success)
