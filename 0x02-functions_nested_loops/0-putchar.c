@@ -1,4 +1,5 @@
-#include "main.h"
+#include "stdio.h"
+#include"main.h"
 
 /**
 *main - Entry point A prints _putchar using putchar prototype
