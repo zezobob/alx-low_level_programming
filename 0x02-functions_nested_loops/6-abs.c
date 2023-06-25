@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include <limits.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code
  *
  * Return: Always 0.
  */
-int main(void)
+int _abs(int c)
 {
-	int n;
+if (c < 0)
+{
+int abs_val;
 
-	if (n < 0)
-		n = (-1) * n;
-	printf("%d\n", n);
-	return (0);
+abs_val = c * -1;
+return (abs_val);
+}
+return (c);
 }
