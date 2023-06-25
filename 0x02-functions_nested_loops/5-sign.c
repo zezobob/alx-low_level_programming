@@ -1,10 +1,11 @@
-#include"main.h"
+#include "main.h"
 
 /**
 *print_sign - print + if n is greater than zero
 */
 
 int print_sign(int n)
+
 {
 if (n > 0)
 {
@@ -20,5 +21,4 @@ else if
 {
 _putchar(45);
 return (-1);
-}
-}
+}}
