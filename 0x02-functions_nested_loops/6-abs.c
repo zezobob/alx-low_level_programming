@@ -9,9 +9,10 @@
  */
 int main(void)
 {
-	int r;
+	int n;
 
-	r = _abs(-1);
-	printf("%d\n", r);
+	if (n < 0)
+		n = (-1) * n;
+	printf("%d\n", n);
 	return (0);
 }
