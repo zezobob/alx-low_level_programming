@@ -1,12 +1,14 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
+
 /**
- * main - return_to_90 - take a pointer to an int paramter
+ * main - 0-reset_to_98 - takes a pointer to an int and updates 
  *
  * Return: Always 0.
  */
-
-void reset_to_98(int *n)
+void 0-reset_to_98.c(int *n)
 {
+
 	*n = 98;
+
 }
